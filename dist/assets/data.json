@@ -1,12 +1,12 @@
 {
   "navbar": {
     "about": "About",
-    "news": "News",
+    "news": "Deliverables",
     "projects": "Projects"
   },
 	"about":{
-		"name":"Kieran Roth",
-    "title":"Computer Science BS Student @ Boston College",
+		"name":"Airbnb Price and Wealth Distribution",
+    "title":"Here is our project on Airbnb Price and Wealth Distribution",
     "photos":["assets/profile.png", "assets/photo1.png", "assets/photo2.png", "assets/photo3.JPG"],
     "email": "rothki@bc.edu",
     "address": "140 Commonwealth Avenue, Chestnut Hill, MA 02467",

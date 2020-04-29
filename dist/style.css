@@ -1,7 +1,7 @@
 nav ul {
     display: flex;
     list-style-type: none;
-    flex-direction: row
+    flex-direction: row;
     position: fixed;
     width: 100%;
     background-color: white;

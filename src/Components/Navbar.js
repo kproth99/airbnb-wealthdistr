@@ -6,7 +6,7 @@ export default function renderNavbar(navbar){
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#news">News</a>
+                <a href="#news">Deliverables</a>
             </li>
             <li>
                 <a href="#projects">Projects</a>
