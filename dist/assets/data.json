@@ -1,0 +1,107 @@
+{
+  "navbar": {
+    "about": "About",
+    "news": "News",
+    "projects": "Projects"
+  },
+	"about":{
+		"name":"Kieran Roth",
+    "title":"Computer Science BS Student @ Boston College",
+    "photos":["assets/profile.png", "assets/photo1.png", "assets/photo2.png", "assets/photo3.JPG"],
+    "email": "rothki@bc.edu",
+    "address": "140 Commonwealth Avenue, Chestnut Hill, MA 02467",
+    "resume": "assets/Kieran Roth Resume.pdf",
+    "instagram": "https://www.instagram.com/kproth99/",
+    "linkedin": "https://www.linkedin.com/in/kieran-roth-8aaa51189/",
+    "body": "Kieran Roth is a student in the Morrissey College of Arts & Science here at BC. He is studying for a Bachelor of Science in <strong>Computer Science</strong>, as well as a minor in <strong>Marketing</strong> in the Carroll School of Management. In addition, his extracurriculars include being the <strong>Music Director</strong> of the Boston College Dynamics, the premiere co-ed A Cappella group at BC. He is also a part of The University Chorale; a staple of Boston College. Besides that, he truly enjoys spending time with friends, photography, and all things fun!"
+    },
+
+"news":[
+		{
+			"title": "Finished leading the Endeavor Program, three day-long career workshop for underclassmen in the Morrisey College of Arts and Science",
+			"date": "Jan 8th - Jan 10th, 2020"
+        },
+        { 
+            "title": "Performed and coordinated the BC Dynamics semi-annual concert on campus, with over 150+ attendees.",
+            "date": "Dec 7th, 2019"
+        },
+        {
+            "title": "Performed in The University Chorale's annual Christmas concert to sold out audiences.",
+            "date": "Dec 6th-8th, 2019"
+    
+        },
+        {
+            "title": "Attended a reunion dinner for the Catalyst Program of Boston College",
+            "date": "Nov 16th, 2019"
+        },
+        {
+            "title": "Selected to participate in a 9 week business intensive program, the Catalyst Program in CSOM",
+            "date":"May 21st - July 16th, 2019"
+
+        }
+],
+"projects":[
+    {
+        "id":"vendingmachine",
+  "title": "Vending Machine: State Machine Simulation",
+  "teaser1": "assets/Vending Machine/Vending.png",
+  "authors": "Kieran Roth and Lindsay Penkrat",
+  "source": "Computer Organization, taught by Professor Biswas, Fall 2019",
+  "tags":"Class",
+  "icon1": "far fa-file-alt",
+  "icon2": "fas fa-video",
+  "materials": [
+    { 
+      "label": "Paper",
+      "path": "assets/Vending Machine/Final Project.pdf"
+    },
+    { 
+      "label": "Demo",
+      "path": "assets/Vending Machine/Final Video.mov"
+    } ],
+  "description": " Our Vending Machine is built through strictly Verilog Code. It utilizes the Seven Segment Display that has been modified to become a Two Digit Seven Segment. This machine works by having three different products; Gum costs 5 cents, Chips cost 25 cents, and Soda costs 30 cents. The user will flip the switch assigned to the specific product they desire. Then they will flip the assigned switch of the coin they wish to enter (Nickel, Dime, Quarter.) The Board displays “G” when gum is selected, “S” when Soda is selected, and “C” when Chips are selected. The machine also has a reset button which turns all LEDS and resets the display back to 0. The user must manually flip the item switch down though. For Soda, as seen in the video there are multiple combinations of coins which allow the product to be dispensed. For all items, there is an “Error” light which displays when the user inputs too little money, which only appears for Soda and Chips (not gum because it’s the lowest value). The “More Money” light illuminates when you put in too much money to purchase the good. This acts as a signifier for change. Soda is an odd amount, so it requires change to be displayed. Finally, if the cost has been reached, the green Dispense light turns on." 
+},
+  {"id":"crocs",
+    "title": "Crocs N' Socks: Market Innovation and Penetration",
+    "teaser1": "assets/Crocs/Crocs.png",
+    "authors": "Kieran Roth, Aileen Humphrey, Madison Keefer, Jasmine Kim ",
+    "source": "Consumer Behavior, 2019",
+    "tags":"Final Project",
+    "icon1": "far fa-file-alt",
+    "icon2": "fas fa-file-powerpoint",
+    "materials": [
+      { 
+        "label": "Paper",
+        "path": "assets/Crocs/The New Crocs.pdf"
+      },
+      { 
+        "label": "Slides",
+        "path": "https://docs.google.com/presentation/d/13GOqwWok9RE27SCP6jjqlUTpFNbSB2CwxahHUg5Kxg8/edit?usp=sharing"
+      }
+    ],
+    "description": "Crocs n’ Socs are filling a wide variety of consumer needs. Crocs n’ Socs is positioned to be a very affordable product while still remaining trendy. This is extremely important as are target market largely consists of a younger generation. This age group is very focused on staying up to date on trends, however they may not have the financial means to purchase products priced at a high premium. The product we are offering is also extremely customizable, which has been a major consumer trend recently. By providing a large variety of colors, patters, and additional Jibbitz for purchase, Crocs n’ Socs will allow customers to get creative and create their perfect pair. Our instore and online design labs will also allow customers to personalize their shoes even further. Typically, personalization comes at a high price tag in the marketplace. Crocs n’ Socs will allow for consumers to indulge in the customization process in an affordable way. Please read our Final Paper in order to understand the whole product idea and market implications"
+},
+{"id":"Dynamics",
+    "title": "The BC Dynamics: Arrangements and Performances",
+    "teaser1": "assets/Dynamics/logo.png",
+    "authors": "Kieran Roth",
+    "source": "The Boston College Dynamics",
+    "tags":"Music",
+    "icon1": "fas fa-music",
+    "icon2": "fas fa-video",
+    "materials": [
+      { 
+        "label": "Example Arrangement",
+        "path": "assets/Dynamics/Ella Mai - Trip.pdf"
+      },
+      { 
+        "label": "Video",
+        "path": "assets/Dynamics/Tears.mp4"
+      }
+    ],
+    "description": "We are the Boston College Dynamics,a co-ed a cappella group from Chestnut Hill, Massachusetts. Founded in 1998, our group has developed into a premiere performing group on the Boston College campus. Our repertoire includes Top 40, R&B, Country, and many other genres of popular music. As Music Director, my role includes running rehearsals and teaching songs, crafting completely new arrangements, producing our annual Albums, and facilitating a creative and safe space. I have included several video examples of our work as well as our Social Media!"
+}
+],
+"footer": "Copyright © 2020 Kieran Roth"
+}
+

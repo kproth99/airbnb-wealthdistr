@@ -1,0 +1,128 @@
+nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Cairo-Regular', sans-serif;
+}
+
+section .title{
+    font-family: 'Cairo-Regular';
+    font-size: 2rem;
+
+}
+
+.project-title {
+    font-family:"VCR OSD Mono";
+    color: rgb(107, 214, 107);
+
+}
+a:visited {color:teal ;}
+a { text-decoration: none;
+    color: teal; 
+ } 
+
+.about:link { 
+    color: teal;
+    text-decoration: none;
+    font-family:"Cairo-Regular";
+  }
+.news:link { 
+    color: teal;
+    text-decoration: none;
+    font-family:"Cairo-Regular";
+    color: inherit;  
+  }
+.projects:link { 
+    color: teal;
+    text-decoration: none;
+    font-family:"Cairo-Regular";
+  }
+nav li {
+    padding: 10px;
+
+}
+h1{
+    color: teal;
+}
+.row{
+	display: flex;	
+}
+
+.row {flex-direction: column;}
+
+
+@media only screen and (min-width:768px) {
+    .col-1 {flex-basis: 8.33%;} /* width works too */
+    .col-2 {flex-basis: 16.66%;}
+    .col-3 {flex-basis: 25%;}
+    .col-4 {flex-basis: 33.33%;}
+    .col-5 {flex-basis: 41.66%;}
+    .col22 {flex-basis: 25%;}
+    .col-6 {flex-basis: 50%;}
+    .col-7 {flex-basis: 58.33%;}
+    .col-8 {flex-basis: 66.66%;}
+    .col-9 {flex-basis: 75%;}
+    .col-10 {flex-basis: 83.33%;}
+    .col-11 {flex-basis: 91.66%;}
+    .col-12 {flex-basis: 100%;}
+    .row {flex-direction: row;}
+    .row1 {flex-direction: column;}
+    
+}
+
+
+
+.profile-img {
+    border-radius: 3%;
+    object-fit:cover;
+    width: 250px;
+    height: 250px;
+}
+.tag-Class {
+    background-color: #cfc ;
+    padding: 2px ;
+    border-radius: 3
+}
+.tag-Computer-Organization {
+    background-color: rgb(239, 204, 255) ;
+    padding: 2px ;
+    border-radius: 4%
+}
+.tag-Final-Project {
+    background-color: rgb(247, 166, 229) ;
+    padding: 2px ;
+    border-radius: 4%
+}
+.tag-music {
+    background-color: rgb(252, 189, 181) ;
+    padding: 2px ;
+    border-radius: 4%
+}
+.tag-acappella {
+    background-color: rgb(204, 226, 255) ;
+    padding: 2px ;
+    border-radius: 4%
+}
+
+.title{ 
+    color: teal;
+    text-decoration: none;
+    padding: 2px;
+    font-family:"Cairo-Black";
+  }
+
+.search input {
+	width:100%;
+  margin:0.5rem 0 0.5rem 0;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid #eeeeee;
+}

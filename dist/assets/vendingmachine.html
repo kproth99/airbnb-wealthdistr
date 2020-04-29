@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="vendingmachine.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <title>Kieran Roth's Homepage</title>
+    
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a class="back" href="index.html">Go Back</a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <h1 class="title">Vending Machine: State Machine Simulation</h1>
+            <div class="project-authors">
+                Kieran Roth and Lindsay Penkrat <br>
+            </div>
+            <div class="project-source">
+                <em>Computer Organization, taught by Professor Biswas, Fall 2019</em>
+            </div>
+            <div class="project-tags">
+                <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="NY_AirBnb" src="//lizzylovesdata.maps.arcgis.com/apps/Embed/index.html?webmap=a879c2f6028845ec838b056d9f160c9b&extent=-74.3437,40.5548,-73.62,40.8692&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+                <span class="tag Class">Class</span>
+                <span class="tag Computer Organization">Computer Organization</span>
+                <span class="tag Final Project">Final Project</span>
+            </div>
+            <div class="project-desc">
+                <p>
+                    Our Vending Machine is built through strictly Verilog Code. It utilizes the Seven Segment Display that has been modified to become a Two Digit Seven Segment. <br>
+                    This machine works by having three different products; Gum costs 5 cents, Chips cost 25 cents, and Soda costs 30 cents. The user will flip the switch assigned to the specific product they desire. Then they will flip the assigned switch of the coin they wish to enter (Nickel, Dime, Quarter.) The Board displays “G” when gum is selected, “S” when Soda is selected, and “C” when Chips are selected. <br>
+                    The machine also has a reset button which turns all LEDS and resets the display back to 0. The user must manually flip the item switch down though.
+          For Soda, as seen in the video there are multiple combinations of coins which allow the product to be dispensed. For all items, there is an “Error” light which displays when the user inputs too little money, which only appears for Soda and Chips (not gum because it’s the lowest value). The “More Money” light illuminates when you put in too much money to purchase the good. This acts as a signifier for change. Soda is an odd amount, so it requires change to be displayed. Finally, if the cost has been reached, the green Dispense light turns on.
+                </p>
+            </div>
+            <div class="project-materials">
+                <i class="far fa-file-alt"></i>
+                <span><a href="assets/Vending Machine/Final Project.pdf" target="_blank">Final Write-Up |</a></span>
+                <i class="fas fa-file-powerpoint"></i>
+                <span><a href="assets/Vending Machine/Final Video.mov" target="_blank">Demo | </a></span> 
+            </div>
+        </section>
+        <footer>Copyright © Kieran Roth</footer>
+    </div>
+    
+</body>
+</html>
