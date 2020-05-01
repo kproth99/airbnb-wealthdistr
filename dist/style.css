@@ -132,7 +132,7 @@ h1{
     background-image: url("https://ichef.bbci.co.uk/news/1024/cpsprodpb/3E5D/production/_109556951_airbnb.png");
   
     /* Set a specific height */
-    height: 500px;
+    height: 300px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
