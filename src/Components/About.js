@@ -8,7 +8,7 @@ export default function renderAbout(about) {
                     <div class="col-6">
                         <img class="profile-img" src="${sample(about.photos)}" width="200" height="300">
                         <p>
-                            <strong> Computer Science BS Student @ Boston College</strong><br>
+                            <strong> This is our project about Airbnb and Price Distribution</strong><br>
                             rothki@bc.edu<br>
                             140 Commonwealth Avenue, Chestnut Hill, MA 02467<br>
                             <a href="assets/Kieran Roth Resume.pdf" target="_blank"><i class="far fa-file-alt"></i> Resume | </a>
