@@ -135,7 +135,7 @@ h1{
     height: 300px; 
   
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%; 
