@@ -2,7 +2,10 @@ import sample from 'lodash/sample';
 
 export default function renderAbout(about) {
     return (
-            ` <section id="about">
+        
+            ` <div class="parallax"></div>
+            <section id="about">
+            
             <h1 class="animated infinite flash delay-3s">Airbnb Price</h1>
             <div id="about" class="row">
                     <div class="col-6">
