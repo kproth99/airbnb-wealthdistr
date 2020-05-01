@@ -145,11 +145,16 @@ h1{
     background-image: url("/assets/Header.png");
   
     /* Set a specific height */
+<<<<<<< HEAD
     height: 250px;
+=======
+    height: 350px; 
+>>>>>>> e464f1750257b942096d6749a51ba7b66faa2aeb
   
     /* Create the parallax scrolling effect */
     background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%; 
+    
   }
