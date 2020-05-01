@@ -126,3 +126,17 @@ h1{
   border-radius: 1rem;
   border: 1px solid #eeeeee;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("https://ichef.bbci.co.uk/news/1024/cpsprodpb/3E5D/production/_109556951_airbnb.png");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
