@@ -1,6 +1,7 @@
 export default function renderNavbar(navbar){
     return (
-        `<nav> 
+        `<div class="parallax"></div>
+        <nav> 
         <ul>
             <li>
                 <a href="#about">About</a>
@@ -12,6 +13,7 @@ export default function renderNavbar(navbar){
                 <a href="#projects">Project</a>
             </li>
         </ul>
+        
     </nav>`
      );
 

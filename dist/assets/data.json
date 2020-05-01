@@ -7,7 +7,10 @@
 	"about":{
 		"name":"Airbnb Price and Wealth Distribution",
     "title":"Here is our project on Airbnb Price and Wealth Distribution",
-    "photos":["assets/profile.png", "assets/photo1.png", "assets/photo2.png", "assets/photo3.JPG"],
+    "photo1":"assets/Kieran.jpg", 
+    "photo2":"assets/Lizzy.jpeg",
+    "photo3":"assets/Catriona.jpg",
+    "photo4":"assets/Kevin.jpeg",
     "email": "rothki@bc.edu",
     "address": "140 Commonwealth Avenue, Chestnut Hill, MA 02467",
     "resume": "assets/Kieran Roth Resume.pdf",

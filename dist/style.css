@@ -2,10 +2,10 @@ nav ul {
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    position: fixed;
+    position: relative;
     width: 100%;
-    background-color: white;
     justify-content: center;
+    background-color:rgb(247, 98, 93);
 }
 
 body {
@@ -23,29 +23,31 @@ section .title{
     color: rgb(107, 214, 107);
 
 }
-a:visited {color:teal ;}
+a:visited {color:rgb(167, 27, 23) ;}
 a { text-decoration: none;
-    color: teal; 
+    color: rgb(247, 98, 93); 
  } 
 
+
 .about:link { 
-    color: teal;
+    color: rgb(247, 98, 93) ;
     text-decoration: none;
     font-family:"Cairo-Regular";
   }
 .news:link { 
-    color: teal;
+    color: rgb(247, 98, 93);
     text-decoration: none;
     font-family:"Cairo-Regular";
     color: inherit;  
   }
 .projects:link { 
-    color: teal;
+    color: rgb(247, 98, 93);
     text-decoration: none;
     font-family:"Cairo-Regular";
   }
 nav li {
     padding: 10px;
+
 
 }
 h1{
@@ -77,13 +79,24 @@ h1{
     
 }
 
-
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .profile-img {
     border-radius: 3%;
-    object-fit:cover;
-    width: 250px;
-    height: 250px;
+    object-fit: fill;
+    width: 200px;
+    height: 200px;
 }
 .tag-Class {
     background-color: #cfc ;
@@ -112,7 +125,7 @@ h1{
 }
 
 .title{ 
-    color: teal;
+    color: rgb(247, 98, 93);
     text-decoration: none;
     padding: 2px;
     font-family:"Cairo-Black";
@@ -129,13 +142,13 @@ h1{
 
 .parallax {
     /* The image used */
-    background-image: url("https://ichef.bbci.co.uk/news/1024/cpsprodpb/3E5D/production/_109556951_airbnb.png");
+    background-image: url("/assets/Header.png");
   
     /* Set a specific height */
-    height: 500px;
+    height: 250px;
   
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: local;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

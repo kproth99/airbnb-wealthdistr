@@ -2,27 +2,38 @@ import sample from 'lodash/sample';
 
 export default function renderAbout(about) {
     return (
-        
-            ` <div class="parallax"></div>
+            ` 
             <section id="about">
-            
-            <h1 class="animated infinite flash delay-3s">Airbnb Price</h1>
             <div id="about" class="row">
                     
                     <div class="col-6">
                     <strong> Meet our Group Members!</strong><br>
-                        <img class="profile-img" src="${sample(about.photos)}" width="200" height="300">
-                        <p>
-                            
-                            140 Commonwealth Avenue, Chestnut Hill, MA 02467<br>
-                            <a href="assets/Kieran Roth Resume.pdf" target="_blank"><i class="far fa-file-alt"></i> Resume | </a>
-                            <a href="https://www.instagram.com/kproth99/" target="_blank">
-                                <i class="fab fa-instagram"></i> | </a>
-                            <a href="https://www.linkedin.com/in/kieran-roth-8aaa51189/" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            |</a> <br>
-    
-                        </p>
+                         <div class="row1">
+                            <div class="column1">
+                        <img class="profile-img" src="${about.photo1}" >
+                        <figcaption> <strong> Kieran Roth </strong> <br> Class of 2021 <br> B.S. in Computer Science; B.S. in Marketing </figcaption>
+                        <a href="https://www.linkedin.com/in/kieran-roth-8aaa51189/" target="_blank">
+                        <i  class="fab fa-linkedin"></i> LinkedIn</a> 
+                            </div>
+                            <div class="column1">
+                                <img class="profile-img" src="${about.photo2}" >
+                                    <figcaption> <strong> Lizzie Hanley </strong> <br> Class of 2020 <br> B.A. in Computer Science; B.S. in Management, Concentrations in Finance & Information Systems </figcaption>
+                                    <a href="https://www.linkedin.com/in/kieran-roth-8aaa51189/" target="_blank">
+                        <i  class="fab fa-linkedin"></i> LinkedIn</a> 
+                            </div>
+                            <div class="column1">
+                                    <img class="profile-img" src="${about.photo4}" >
+                                 <figcaption> <strong> Kevin Li </strong> <br> Class of 2020 <br> B.A. in Computer Science </figcaption>
+                                 <a href="https://www.linkedin.com/in/kieran-roth-8aaa51189/" target="_blank">
+                        <i  class="fab fa-linkedin"></i> LinkedIn</a> 
+                            </div>
+                            <div class="column1">
+                                    <img class="profile-img" src="${about.photo3}" >
+                                 <figcaption> <strong> Catriona Sullivan </strong> <br> Class of 2020 <br> B.A. in Computer Science </figcaption>
+                                 <a href="https://www.linkedin.com/in/kieran-roth-8aaa51189/" target="_blank">
+                        <i  class="fab fa-linkedin"></i> LinkedIn</a> 
+                            </div>
+                        </div>
                     </div>
                     <div class="col22">
                         <p>

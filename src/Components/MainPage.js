@@ -11,7 +11,7 @@ export default function renderMainPage(data){
         ${renderNews(data.news)}
         ${renderProjects(data.projects)}
             <div>
-             <footer>Copyright © 2020 Kieran Roth</footer>
+             <footer>Copyright © 2020 </footer>
         </div
         `;
         searchSort(data);
