@@ -9,7 +9,7 @@ export default function renderNavbar(navbar){
                 <a href="#news">Deliverables</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects">Project</a>
             </li>
         </ul>
     </nav>`
