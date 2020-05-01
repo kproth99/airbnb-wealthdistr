@@ -7,9 +7,9 @@ export default function renderMainPage(data){
         document.querySelector('.container').innerHTML = `
         ${renderNavbar('main', Object.keys(data))}
         ${renderAbout(data.about)}
+        ${renderProjects(data.projects)}
         <h1 class="title">News</h1>
         ${renderNews(data.news)}
-        ${renderProjects(data.projects)}
             <div>
              <footer>Copyright © 2020 </footer>
         </div

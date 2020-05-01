@@ -1,26 +1,8 @@
 export default function renderProjects(projects){
     return `
     <section id="projects">
-        <h1 class="title">Projects</h1>
-
-        <div class="filter">
-        <label>
-            <input type="radio" name="filter" value="all" checked> All
-        </label>
-        <label>
-            <input type="radio" name="filter" value="Class"> Class
-        </label>
-        <label>
-            <input type="radio" name="filter" value="Final Project"> Final Project
-        </label>
-        <label>
-            <input type="radio" name="filter" value="Music"> Music
-        </label>
-
-    </div>
-
-    <br>
-
+        <h1 class="title">Project Deliverables</h1>
+        
         <div class="project-list">
         ${renderProjectItems(projects)}
         </div>
