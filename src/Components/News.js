@@ -1,6 +1,7 @@
 export default function renderNews(news) {
     return `
      <section id = "news">
+        <h1 class="title">Project Deliverables</h1>
         <div class="search">
             <input type="search" name='news' placeholder="Search News...">
         </div>
@@ -29,11 +30,3 @@ export function renderNewsItems(news){
     .join('')
 }
 
-export function searchSort(data){
-    let input = document.querySelector('input[type=search]');
-    input.addEventListener('input',(event)=>{
-        console.log(event.target.value);
-        const filtered = data.news.filter(news=>news.title.toLowerCase().includes(event.target.value.toLowerCase()));
-        document.querySelector('.news-list').innerHTML = renderNewsItems(filtered);
-    });
-}

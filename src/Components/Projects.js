@@ -10,32 +10,15 @@ export default function renderProjects(projects){
 }
 
 export function renderProjectItems(projects){
-    return projects.map(
-        d => `
-
-        <div>
-        <div class="column2">
-        <img class="profile-img" src="${d.hoto1}" >
-            <div class="project-title">
-            <a href="?project=${d.id}"><strong>${d.title}</strong></a>
-            </div>
+    return projects.map(d=>`
+        <div class="row">
+            <div class="col-6">
+                <img src="${d.teaser1}" width=325px>
+                <div class="project-title">
+                    <a href="?project=${d.id}"><strong>${d.title}</strong></a>
+                </div>
+                 
         </div>
-        </div>
-        </div>
-    <br>`
-    ).join('');
+    `).join('');
 }
 
-export function radioSort(data){
-    let buttons = document.querySelectorAll('.filter input[name="filter"]');
-    buttons.forEach(cond=>cond.addEventListener('change', function(event){
-        let tag = event.target.value;
-        if(tag === "all"){
-            document.querySelector(".project-list").innerHTML = renderProjectItems(data.projects);
-        }
-        else{
-            const filtered = data.projects.filter(projects=>((projects.tags===(event.target.value))));
-            document.querySelector('project-list').innerHTML = renderProjectItems(filtered);
-        }
-    }));
-}

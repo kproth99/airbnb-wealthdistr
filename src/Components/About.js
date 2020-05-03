@@ -37,7 +37,7 @@ export default function renderAbout(about) {
                     </div>
                     <div class="col22">
                         <p>
-                            We love Airbnb!
+                        Welcome to our final project for Network Science! Ever thought about staying in a wealthy part of a city but weren’t sure how expensive paying for an Airbnb would be? The premise of our project is to demonstrate how Airbnb prices in a city are related to that city’s wealth distribution. Scroll down to find links to interactive maps of San Francisco, Austin, and New York City displaying the data points of price listings on top of median household income. By exploring these maps you might notice that even in areas with higher income households, there are still Airbnb listings with relatively low prices. So, before you plan your next trip, don’t count out any options! 
                              
                         </p>       
                     </div>

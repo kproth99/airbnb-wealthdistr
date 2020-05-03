@@ -45,12 +45,11 @@
 ],
 "projects":[
     {
-        "id":"vendingmachine",
-  "title": "Vending Machine: State Machine Simulation",
-  "teaser1": "assets/Vending Machine/Vending.png",
-  "authors": "Kieran Roth and Lindsay Penkrat",
-  "source": "Computer Organization, taught by Professor Biswas, Fall 2019",
-  "tags":"Class",
+  "id":"austin",
+  "title": "Map of Austin, TX",
+  "teaser1": "assets/austin.png",
+  "map": "https://arcg.is/rCrrj",
+  "authors": "Kieran Roth, Lizzie Haneley, Catriona Sullivan, Kevin Li",
   "icon1": "far fa-file-alt",
   "icon2": "fas fa-video",
   "materials": [
@@ -64,12 +63,10 @@
     } ],
   "description": " Our Vending Machine is built through strictly Verilog Code. It utilizes the Seven Segment Display that has been modified to become a Two Digit Seven Segment. This machine works by having three different products; Gum costs 5 cents, Chips cost 25 cents, and Soda costs 30 cents. The user will flip the switch assigned to the specific product they desire. Then they will flip the assigned switch of the coin they wish to enter (Nickel, Dime, Quarter.) The Board displays “G” when gum is selected, “S” when Soda is selected, and “C” when Chips are selected. The machine also has a reset button which turns all LEDS and resets the display back to 0. The user must manually flip the item switch down though. For Soda, as seen in the video there are multiple combinations of coins which allow the product to be dispensed. For all items, there is an “Error” light which displays when the user inputs too little money, which only appears for Soda and Chips (not gum because it’s the lowest value). The “More Money” light illuminates when you put in too much money to purchase the good. This acts as a signifier for change. Soda is an odd amount, so it requires change to be displayed. Finally, if the cost has been reached, the green Dispense light turns on." 
 },
-  {"id":"crocs",
-    "title": "Crocs N' Socks: Market Innovation and Penetration",
-    "teaser1": "assets/Crocs/Crocs.png",
-    "authors": "Kieran Roth, Aileen Humphrey, Madison Keefer, Jasmine Kim ",
-    "source": "Consumer Behavior, 2019",
-    "tags":"Final Project",
+  {"id":"newyork",
+    "title": "Map of New York, NY",
+    "teaser1": "assets/newyork.png",
+    "authors": "Kieran Roth, Lizzie Haneley, Catriona Sullivan, Kevin Li",
     "icon1": "far fa-file-alt",
     "icon2": "fas fa-file-powerpoint",
     "materials": [
@@ -84,12 +81,10 @@
     ],
     "description": "Crocs n’ Socs are filling a wide variety of consumer needs. Crocs n’ Socs is positioned to be a very affordable product while still remaining trendy. This is extremely important as are target market largely consists of a younger generation. This age group is very focused on staying up to date on trends, however they may not have the financial means to purchase products priced at a high premium. The product we are offering is also extremely customizable, which has been a major consumer trend recently. By providing a large variety of colors, patters, and additional Jibbitz for purchase, Crocs n’ Socs will allow customers to get creative and create their perfect pair. Our instore and online design labs will also allow customers to personalize their shoes even further. Typically, personalization comes at a high price tag in the marketplace. Crocs n’ Socs will allow for consumers to indulge in the customization process in an affordable way. Please read our Final Paper in order to understand the whole product idea and market implications"
 },
-{"id":"Dynamics",
-    "title": "The BC Dynamics: Arrangements and Performances",
-    "teaser1": "assets/Dynamics/logo.png",
-    "authors": "Kieran Roth",
-    "source": "The Boston College Dynamics",
-    "tags":"Music",
+{"id":"sanfran",
+    "title": "Map of San Francisco, CA",
+    "teaser1": "assets/sanfran.png",
+    "authors": "Kieran Roth, Lizzie Haneley, Catriona Sullivan, Kevin Li",
     "icon1": "fas fa-music",
     "icon2": "fas fa-video",
     "materials": [

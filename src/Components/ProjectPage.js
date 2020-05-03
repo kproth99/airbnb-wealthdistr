@@ -8,16 +8,12 @@ export default function renderProjectPage(d) {
                 </li>
             </ul>
         </nav>
-        <div>
-      <div class="title"><h1 "${d.id}" ${d.title} </h1></div>
-  </div>
-  <div class="row">
-      <div class="col-6">
-        <img src="${d.teaser1}" style="width: 30%; margin-left: 10px; border-radius: 25px" /> 
-      </div>
-      
-  </div>
+
   <div>
+            <div class="map"> 
+            <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><small><a href="//lizzylovesdata.maps.arcgis.com/apps/Embed/index.html?webmap=1008916e3c054874a8776dc63a0bf32f&extent=-98.1281,30.1188,-97.4442,30.4991&home=true&zoom=true&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=details&disable_scroll=true&theme=light" style="color:#0000FF;text-align:left" target="_blank">View larger map</a></small><br><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="TX airbnb prices" src="//lizzylovesdata.maps.arcgis.com/apps/Embed/index.html?webmap=1008916e3c054874a8776dc63a0bf32f&extent=-98.1281,30.1188,-97.4442,30.4991&home=true&zoom=true&previewImage=true&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=details&disable_scroll=true&theme=light"></iframe></div>
+                </div>
+            <br>
           <div class="authors" style="text-align:left"> ${d.authors} </div>
           <div class="source" style="text-align:left"> 
               <em>${d.source}</em> 
