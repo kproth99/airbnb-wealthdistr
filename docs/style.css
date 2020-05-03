@@ -14,14 +14,15 @@ body {
 
 section .title{
     font-family: 'Cairo-Regular';
+    color: rgb(247, 98, 93);
     font-size: 2rem;
 
 }
 
 .project-title {
     font-family:"VCR OSD Mono";
-    color: rgb(107, 214, 107);
-    text-align: left;
+    color: rgb(167, 27, 23);
+    text-align: center;
 
 }
 a:visited {color:rgb(167, 27, 23) ;}
@@ -55,10 +56,27 @@ h1{
     color: teal;
 }
 .row{
-	display: flex;	
+    display: inline-flex;
+    margin-bottom: 10px;
+   
 }
 
-.row {flex-direction: column;}
+.col-6 {
+    margin-right: 200px;
+}
+
+
+[class*="col-"] {
+    flex-basis: 100%;
+}
+
+
+.column1 {
+    float: left;
+    width: 32.5%;
+    padding: 5px;
+  }
+
 
 
 @media only screen and (min-width:768px) {
@@ -80,23 +98,15 @@ h1{
     
 }
 
-.column1 {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-
-.column2 {
-    float: right;
-    width: 33.33%;
-    padding: 5px;
-  }
   /* Clear floats after image containers */
   .row1::after {
     content: "";
     clear: both;
     display: table;
   }
+
+
+ 
 
 .profile-img {
     border-radius: 3%;
@@ -113,8 +123,10 @@ h1{
     font-family:"Cairo-Black";
   }
 
+
+
 .search input {
-	width:100%;
+    width:100%;
   margin:0.5rem 0 0.5rem 0;
   font-size: 0.9rem;
   padding: 0.5rem;
