@@ -32,8 +32,11 @@ export function renderNewsItems(news){
   
             <div class="label" style="text-align:left">
                 <span><a href="${n.materials[0].path}"> <i class="${n.icon1}"></i> 
-                    ${n.materials[0].label} </a>
+                    ${n.materials[0].label} </a> |
                 </span> 
+                <span><a href="${n.materials[1].path}"> <i class="${n.icon2}"></i> 
+                ${n.materials[1].label} </a>
+            </span> 
             </div>
             
         </div>

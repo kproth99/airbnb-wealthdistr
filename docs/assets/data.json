@@ -19,11 +19,17 @@
     "title": "Final Report",
     "authors": "Kieran Roth, Lizzy Hanley, Catriona Sullivan, Kevin Li",
      "icon1": "far fa-file-alt",
+     "icon2": "fas fa-video",
     "materials": [
        { 
          "label": "Paper",
+         "path": "assets/FinalReport.pdf"
+       },
+      {
+        "label": "Video",
          "path": "assets/MidtermReport.pdf"
-       }]
+
+      }]
        },
        {
         "id":"midtermreport",
@@ -35,7 +41,12 @@
              { 
                "label": "Paper",
                "path": "assets/MidtermReport.pdf"
-             }]
+             },
+             {
+              "label": "",
+               "path": ""
+      
+            }]
 
        },
       {
@@ -48,6 +59,11 @@
             { 
             "label": "Paper",
           "path": "assets/InitialReport.pdf"
+          },
+          {
+            "label": "",
+            "path": ""
+  
           }]
           }
                
