@@ -16,7 +16,7 @@ export function renderNewsItems(news){
 
         <div>
             <div class="deliverable-title">
-            <a href="?deliverable=${n.id}"><strong>${n.title}</strong></a>
+            <strong>${n.title}</strong>
             </div>
         </div>
 
