@@ -3,7 +3,7 @@ export default function renderProjectPage2(d) {
     <nav>
             <ul>
                 <li>
-                    <a class="title" href="index.html" top:30px>
+                    <a class="backtitle" href="index.html" top:30px>
                     <i class="fas fa-user-circle"></i> Go Back</a>
                 </li>
             </ul>
