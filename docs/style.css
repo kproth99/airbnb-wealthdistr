@@ -1,5 +1,7 @@
+
 nav ul {
     display: flex;
+    font-size: 1.2rem;
     list-style-type: none;
     flex-direction: row;
     position: relative;
@@ -25,11 +27,46 @@ section .title{
     text-align: center;
 
 }
+.deliverable-title {
+  font-family:"VCR OSD Mono";
+  color: rgb(167, 27, 23);
+  text-align: left;
+  font-size: 1.2rem;
+
+}
+.title{ 
+  color: rgb(247, 98, 93);
+  text-decoration: none;
+  padding: 2px;
+  font-family:"Cairo-Black";
+}
+
+.pagetitle{ 
+color: rgb(170, 43, 39);
+text-decoration: none;
+padding: 2px;
+font-family:"Cairo-Black";
+}
+
+.headertitle{ 
+color: rgb(170, 43, 39);
+text-decoration: none;
+padding: 2px;
+font-family:"Cairo-Black";
+font-size: 1.2rem;
+}
+
+.delauthors {
+  width: 200%;
+}
 a:visited {color:rgb(167, 27, 23) ;}
 a { text-decoration: none;
     color: rgb(167, 27, 23); 
  } 
 
+ .abstract{
+   text-align: left;
+ }
 
 .about:link { 
     color: rgb(247, 98, 93) ;
@@ -52,17 +89,19 @@ nav li {
 
 
 }
-h1{
-    color: teal;
-}
+
 .row{
-    display: inline-flex;
-    margin-bottom: 10px;
-   
+  display: flex;
+  flex-wrap: nowrap;
 }
 
+
 .col-6 {
-    margin-right: 200px;
+  margin-right: 200px;
+}
+
+.col-62{
+  margin-right: 1px;
 }
 
 
@@ -72,12 +111,15 @@ h1{
 
 
 .column1 {
-    float: left;
-    width: 32.5%;
-    padding: 5px;
+  width: 50.5%;
+  padding: 5px;
+}
+
+  .col22 {
+    text-align: center;
+    margin-right: 100px;
+    flex-basis: 33%;
   }
-
-
 
 @media only screen and (min-width:768px) {
     .col-1 {flex-basis: 8.33%;} /* width works too */
@@ -85,8 +127,8 @@ h1{
     .col-3 {flex-basis: 25%;}
     .col-4 {flex-basis: 33.33%;}
     .col-5 {flex-basis: 41.66%;}
-    .col22 {flex-basis: 25%;}
     .col-6 {flex-basis: 50%;}
+    .col-62 {flex-basis: 25%;}
     .col-7 {flex-basis: 58.33%;}
     .col-8 {flex-basis: 66.66%;}
     .col-9 {flex-basis: 75%;}
@@ -104,10 +146,7 @@ h1{
     clear: both;
     display: table;
   }
-
-
  
-
 .profile-img {
     border-radius: 3%;
     object-fit: fill;
@@ -115,13 +154,6 @@ h1{
     height: 200px;
 }
 
-
-.title{ 
-    color: rgb(247, 98, 93);
-    text-decoration: none;
-    padding: 2px;
-    font-family:"Cairo-Black";
-  }
 
 
 

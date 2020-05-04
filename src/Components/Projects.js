@@ -1,8 +1,7 @@
 export default function renderProjects(projects){
     return `
     <section id="projects">
-        <h1 class="title">Project Deliverables</h1>
-        
+        <h1 class="title">Airbnb Price Distribution Maps</h1>
         <div class="project-list">
         ${renderProjectItems(projects)}
         </div>

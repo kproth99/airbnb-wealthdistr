@@ -1,47 +1,56 @@
 {
   "navbar": {
     "about": "About",
-    "news": "Deliverables",
-    "projects": "Projects"
+    "projects": "Maps",
+    "news": "Deliverables"
   },
 	"about":{
-		"name":"Airbnb Price and Wealth Distribution",
-    "title":"Here is our project on Airbnb Price and Wealth Distribution",
     "photo1":"assets/Kieran.jpg", 
     "photo2":"assets/Lizzy.jpeg",
     "photo3":"assets/Cat1.jpeg",
     "photo4":"assets/Kevin.jpeg",
-    "email": "rothki@bc.edu",
-    "address": "140 Commonwealth Avenue, Chestnut Hill, MA 02467",
-    "resume": "assets/Kieran Roth Resume.pdf",
-    "instagram": "https://www.instagram.com/kproth99/",
-    "linkedin": "https://www.linkedin.com/in/kieran-roth-8aaa51189/",
-    "body": "Kieran Roth is a student in the Morrissey College of Arts & Science here at BC. He is studying for a Bachelor of Science in <strong>Computer Science</strong>, as well as a minor in <strong>Marketing</strong> in the Carroll School of Management. In addition, his extracurriculars include being the <strong>Music Director</strong> of the Boston College Dynamics, the premiere co-ed A Cappella group at BC. He is also a part of The University Chorale; a staple of Boston College. Besides that, he truly enjoys spending time with friends, photography, and all things fun!"
+    "desc":  "Welcome to our final project for Network Science! Ever thought about staying in a wealthy part of a city but weren’t sure how expensive paying for an Airbnb would be? The premise of our project is to demonstrate how Airbnb prices in a city are related to that city’s wealth distribution. Scroll down to find links to interactive maps of San Francisco, Austin, and New York City displaying the data points of price listings on top of median household income. By exploring these maps you might notice that even in areas with higher income households, there are still Airbnb listings with relatively low prices. So, before you plan your next trip, don’t count out any options!"
     },
 
 "news":[
-		{
-			"title": "Here is our project",
-			"date": "Jan 8th - Jan 10th, 2020"
-        },
-        { 
-            "title": "Performed and coordinated the BC Dynamics semi-annual concert on campus, with over 150+ attendees.",
-            "date": "Dec 7th, 2019"
-        },
-        {
-            "title": "Performed in The University Chorale's annual Christmas concert to sold out audiences.",
-            "date": "Dec 6th-8th, 2019"
-    
-        },
-        {
-            "title": "Attended a reunion dinner for the Catalyst Program of Boston College",
-            "date": "Nov 16th, 2019"
-        },
-        {
-            "title": "Selected to participate in a 9 week business intensive program, the Catalyst Program in CSOM",
-            "date":"May 21st - July 16th, 2019"
+	{
+    "id":"finalreport",
+    "date": "May 4th, 2020",
+    "title": "Final Report",
+    "authors": "Kieran Roth, Lizzy Hanley, Catriona Sullivan, Kevin Li",
+     "icon1": "far fa-file-alt",
+    "materials": [
+       { 
+         "label": "Paper",
+         "path": "assets/MidtermReport.pdf"
+       }]
+       },
+       {
+        "id":"midtermreport",
+        "date": "April 3rd, 2020",
+         "title": "Midterm Report",
+          "authors": "Kieran Roth, Lizzy Hanley, Catriona Sullivan, Kevin Li",
+           "icon1": "far fa-file-alt",
+          "materials": [
+             { 
+               "label": "Paper",
+               "path": "assets/MidtermReport.pdf"
+             }]
 
-        }
+       },
+      {
+       "id":"intialreport",
+      "date": "February 19th, 2020",
+       "title": "Initial Report",
+       "authors": "Kieran Roth, Lizzy Hanley, Catriona Sullivan, Kevin Li",
+       "icon1": "far fa-file-alt",
+        "materials": [
+            { 
+            "label": "Paper",
+          "path": "assets/InitialReport.pdf"
+          }]
+          }
+               
 ],
 "projects":[
     {
@@ -49,7 +58,7 @@
   "title": "Map of Austin, TX",
   "teaser1": "assets/austin.png",
   "map": "https://arcg.is/rCrrj",
-  "authors": "Kieran Roth, Lizzie Haneley, Catriona Sullivan, Kevin Li",
+  "authors": "Kieran Roth, Lizzie Hanley, Catriona Sullivan, Kevin Li",
   "icon1": "far fa-file-alt",
   "icon2": "fas fa-video",
   "materials": [
@@ -66,7 +75,7 @@
   {"id":"newyork",
     "title": "Map of New York, NY",
     "teaser1": "assets/newyork.png",
-    "authors": "Kieran Roth, Lizzie Haneley, Catriona Sullivan, Kevin Li",
+    "authors": "Kieran Roth, Lizzie Hanley, Catriona Sullivan, Kevin Li",
     "icon1": "far fa-file-alt",
     "icon2": "fas fa-file-powerpoint",
     "materials": [
@@ -84,7 +93,7 @@
 {"id":"sanfran",
     "title": "Map of San Francisco, CA",
     "teaser1": "assets/sanfran.png",
-    "authors": "Kieran Roth, Lizzie Haneley, Catriona Sullivan, Kevin Li",
+    "authors": "Kieran Roth, Lizzy Hanley, Catriona Sullivan, Kevin Li",
     "icon1": "fas fa-music",
     "icon2": "fas fa-video",
     "materials": [
@@ -100,6 +109,6 @@
     "description": "We are the Boston College Dynamics,a co-ed a cappella group from Chestnut Hill, Massachusetts. Founded in 1998, our group has developed into a premiere performing group on the Boston College campus. Our repertoire includes Top 40, R&B, Country, and many other genres of popular music. As Music Director, my role includes running rehearsals and teaching songs, crafting completely new arrangements, producing our annual Albums, and facilitating a creative and safe space. I have included several video examples of our work as well as our Social Media!"
 }
 ],
-"footer": "Copyright © 2020 Kieran Roth"
+"footer": "Copyright © 2020"
 }
 
