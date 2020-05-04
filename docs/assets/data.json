@@ -59,54 +59,20 @@
   "teaser1": "assets/austin.png",
   "map": "https://arcg.is/rCrrj",
   "authors": "Kieran Roth, Lizzie Hanley, Catriona Sullivan, Kevin Li",
-  "icon1": "far fa-file-alt",
-  "icon2": "fas fa-video",
-  "materials": [
-    { 
-      "label": "Paper",
-      "path": "assets/Vending Machine/Final Project.pdf"
-    },
-    { 
-      "label": "Demo",
-      "path": "assets/Vending Machine/Final Video.mov"
-    } ],
-  "description": " Our Vending Machine is built through strictly Verilog Code. It utilizes the Seven Segment Display that has been modified to become a Two Digit Seven Segment. This machine works by having three different products; Gum costs 5 cents, Chips cost 25 cents, and Soda costs 30 cents. The user will flip the switch assigned to the specific product they desire. Then they will flip the assigned switch of the coin they wish to enter (Nickel, Dime, Quarter.) The Board displays “G” when gum is selected, “S” when Soda is selected, and “C” when Chips are selected. The machine also has a reset button which turns all LEDS and resets the display back to 0. The user must manually flip the item switch down though. For Soda, as seen in the video there are multiple combinations of coins which allow the product to be dispensed. For all items, there is an “Error” light which displays when the user inputs too little money, which only appears for Soda and Chips (not gum because it’s the lowest value). The “More Money” light illuminates when you put in too much money to purchase the good. This acts as a signifier for change. Soda is an odd amount, so it requires change to be displayed. Finally, if the cost has been reached, the green Dispense light turns on." 
+  "description": "To see areas of each city in more detail, zoom in and out using the “+” and “-” buttons. The more you zoom in, the clearer each individual listing becomes. In some areas of our maps, all five quintiles of Airbnb listings can be found in a single real estate block! On the top left corner you have the option to click the arrow button to filter and view some of the map layer details. You will be able to view all of our layers in the “Content” section, and also select which layers to view at a time. The default view displays all the layers at once, but feel free to toggle on and off each quintile map layer of the Airbnb listings. To understand the color scheme of each map, click on “Legend” on the left side of the map. Here you will see an explanation of what the color of each Airbnb listing data point corresponds to in terms of pricing quintile and pricing range. You can also view the legend for the 2019 median household income layer and the income ranges each block color corresponds to. Lastly, you can click a data point to reveal additional details, including the neighborhood, nightly price, latitude, and longitude of that Airbnb listing. Clicking on a block group will display the median household income of that area in comparison to the national median household income, and a bar graph categorizing median household income by age groups. You can hover over each bar of the graph to show the exact median household income for that specific age group."
+
 },
   {"id":"newyork",
     "title": "Map of New York, NY",
     "teaser1": "assets/newyork.png",
     "authors": "Kieran Roth, Lizzie Hanley, Catriona Sullivan, Kevin Li",
-    "icon1": "far fa-file-alt",
-    "icon2": "fas fa-file-powerpoint",
-    "materials": [
-      { 
-        "label": "Paper",
-        "path": "assets/Crocs/The New Crocs.pdf"
-      },
-      { 
-        "label": "Slides",
-        "path": "https://docs.google.com/presentation/d/13GOqwWok9RE27SCP6jjqlUTpFNbSB2CwxahHUg5Kxg8/edit?usp=sharing"
-      }
-    ],
-    "description": "Crocs n’ Socs are filling a wide variety of consumer needs. Crocs n’ Socs is positioned to be a very affordable product while still remaining trendy. This is extremely important as are target market largely consists of a younger generation. This age group is very focused on staying up to date on trends, however they may not have the financial means to purchase products priced at a high premium. The product we are offering is also extremely customizable, which has been a major consumer trend recently. By providing a large variety of colors, patters, and additional Jibbitz for purchase, Crocs n’ Socs will allow customers to get creative and create their perfect pair. Our instore and online design labs will also allow customers to personalize their shoes even further. Typically, personalization comes at a high price tag in the marketplace. Crocs n’ Socs will allow for consumers to indulge in the customization process in an affordable way. Please read our Final Paper in order to understand the whole product idea and market implications"
+    "description": "To see areas of each city in more detail, zoom in and out using the “+” and “-” buttons. The more you zoom in, the clearer each individual listing becomes. In some areas of our maps, all five quintiles of Airbnb listings can be found in a single real estate block! On the top left corner you have the option to click the arrow button to filter and view some of the map layer details. You will be able to view all of our layers in the “Content” section, and also select which layers to view at a time. The default view displays all the layers at once, but feel free to toggle on and off each quintile map layer of the Airbnb listings. To understand the color scheme of each map, click on “Legend” on the left side of the map. Here you will see an explanation of what the color of each Airbnb listing data point corresponds to in terms of pricing quintile and pricing range. You can also view the legend for the 2019 median household income layer and the income ranges each block color corresponds to. Lastly, you can click a data point to reveal additional details, including the neighborhood, nightly price, latitude, and longitude of that Airbnb listing. Clicking on a block group will display the median household income of that area in comparison to the national median household income, and a bar graph categorizing median household income by age groups. You can hover over each bar of the graph to show the exact median household income for that specific age group."
 },
 {"id":"sanfran",
     "title": "Map of San Francisco, CA",
     "teaser1": "assets/sanfran.png",
     "authors": "Kieran Roth, Lizzy Hanley, Catriona Sullivan, Kevin Li",
-    "icon1": "fas fa-music",
-    "icon2": "fas fa-video",
-    "materials": [
-      { 
-        "label": "Example Arrangement",
-        "path": "assets/Dynamics/Ella Mai - Trip.pdf"
-      },
-      { 
-        "label": "Video",
-        "path": "assets/Dynamics/Tears.mp4"
-      }
-    ],
-    "description": "We are the Boston College Dynamics,a co-ed a cappella group from Chestnut Hill, Massachusetts. Founded in 1998, our group has developed into a premiere performing group on the Boston College campus. Our repertoire includes Top 40, R&B, Country, and many other genres of popular music. As Music Director, my role includes running rehearsals and teaching songs, crafting completely new arrangements, producing our annual Albums, and facilitating a creative and safe space. I have included several video examples of our work as well as our Social Media!"
+    "description": "To see areas of each city in more detail, zoom in and out using the “+” and “-” buttons. The more you zoom in, the clearer each individual listing becomes. In some areas of our maps, all five quintiles of Airbnb listings can be found in a single real estate block! On the top left corner you have the option to click the arrow button to filter and view some of the map layer details. You will be able to view all of our layers in the “Content” section, and also select which layers to view at a time. The default view displays all the layers at once, but feel free to toggle on and off each quintile map layer of the Airbnb listings. To understand the color scheme of each map, click on “Legend” on the left side of the map. Here you will see an explanation of what the color of each Airbnb listing data point corresponds to in terms of pricing quintile and pricing range. You can also view the legend for the 2019 median household income layer and the income ranges each block color corresponds to. Lastly, you can click a data point to reveal additional details, including the neighborhood, nightly price, latitude, and longitude of that Airbnb listing. Clicking on a block group will display the median household income of that area in comparison to the national median household income, and a bar graph categorizing median household income by age groups. You can hover over each bar of the graph to show the exact median household income for that specific age group."
 }
 ],
 "footer": "Copyright © 2020"

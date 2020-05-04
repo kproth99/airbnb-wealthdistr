@@ -41,6 +41,13 @@ section .title{
   font-family:"Cairo-Black";
 }
 
+.backtitle{ 
+  color: rgb(170, 43, 39);
+  text-decoration: none;
+  padding: 2px;
+  font-family:"Cairo-Black";
+}
+
 .pagetitle{ 
 color: rgb(170, 43, 39);
 text-decoration: none;
