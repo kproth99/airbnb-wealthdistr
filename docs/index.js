@@ -1,7 +1,7 @@
-import renderMainPage from './Components/MainPage.js'
-import renderProjectPage from './Components/ProjectPage.js'
-import renderProjectPage2 from './Components/ProjectPage2.js'
-import renderProjectPage3 from './Components/ProjectPage3.js'
+import renderMainPage from './src/Components/MainPage.js'
+import renderProjectPage from './src/Components/ProjectPage.js'
+import renderProjectPage2 from './src/Components/ProjectPage2.js'
+import renderProjectPage3 from './src/Components/ProjectPage3.js'
 
 fetch("assets/data.json")
     .then(resp => resp.json())
