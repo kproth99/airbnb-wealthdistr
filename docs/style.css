@@ -27,6 +27,7 @@ section .title{
     font-family:"VCR OSD Mono";
     color: rgb(167, 27, 23);
     text-align: center;
+    src: url(./assets/VCR_OSD_MONO_1.001.ttf.ttf);
 
 }
 .deliverable-title {
@@ -34,6 +35,7 @@ section .title{
   color: rgb(167, 27, 23);
   text-align: left;
   font-size: 1.2rem;
+  src: url(./assets/VCR_OSD_MONO_1.001.ttf.ttf);
 
 }
 .title{ 
