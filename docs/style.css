@@ -16,7 +16,7 @@ body {
 }
 
 section .title{
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Cairo-Black', sans-serif;
     color: rgb(247, 98, 93);
     font-size: 2rem;
     src: url(./assets/Cairo-Regular.ttf);
