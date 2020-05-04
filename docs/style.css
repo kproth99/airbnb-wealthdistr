@@ -12,12 +12,14 @@ nav ul {
 
 body {
     font-family: 'Cairo-Regular', sans-serif;
+    src: url(./assets/Cairo-Regular.ttf);
 }
 
 section .title{
     font-family: 'Cairo-Regular';
     color: rgb(247, 98, 93);
     font-size: 2rem;
+    src: url(./assets/Cairo-Regular.ttf);
 
 }
 
@@ -39,6 +41,7 @@ section .title{
   text-decoration: none;
   padding: 2px;
   font-family:"Cairo-Black";
+  src: url(./assets/Cairo-Regular.ttf);
 }
 
 .backtitle{ 
@@ -46,6 +49,7 @@ section .title{
   text-decoration: none;
   padding: 2px;
   font-family:"Cairo-Black";
+  src: url(./assets/Cairo-Regular.ttf);
 }
 
 .pagetitle{ 
@@ -53,6 +57,7 @@ color: rgb(170, 43, 39);
 text-decoration: none;
 padding: 2px;
 font-family:"Cairo-Black";
+src: url(./assets/Cairo-Regular.ttf);
 }
 
 .headertitle{ 
@@ -60,6 +65,7 @@ color: rgb(170, 43, 39);
 text-decoration: none;
 padding: 2px;
 font-family:"Cairo-Black";
+src: url(./assets/Cairo-Regular.ttf);
 font-size: 1.2rem;
 }
 
@@ -79,17 +85,20 @@ a { text-decoration: none;
     color: rgb(247, 98, 93) ;
     text-decoration: none;
     font-family:"Cairo-Regular";
+    src: url(./assets/Cairo-Regular.ttf);
   }
 .news:link { 
     color: rgb(247, 98, 93);
     text-decoration: none;
     font-family:"Cairo-Regular";
     color: inherit;  
+    src: url(./assets/Cairo-Regular.ttf);
   }
 .projects:link { 
     color: rgb(247, 98, 93);
     text-decoration: none;
     font-family:"Cairo-Regular";
+    src: url(./assets/Cairo-Regular.ttf);
   }
 nav li {
     padding: 10px;
