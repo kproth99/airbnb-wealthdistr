@@ -24,9 +24,9 @@ export default function renderAbout(about) {
             </div>
             <div class="col-62">
             <img class="profile-img" src="${about.photo3}" >
-                <figcaption> <strong> Catriona Sullivan </strong> <br> Class of 2020 <br> B.A. in Computer Science </figcaption>
-                    <a href=“https://www.linkedin.com/in/catriona-sullivan-844878153/” target="_blank">
-                    <i  class="fab fa-linkedin"></i> LinkedIn</a>       
+                <figcaption> <strong> Catriona Sullivan </strong> <br> Class of 2020 <br> B.A. in Computer Science </figcaption>   
+                <a href="https://www.linkedin.com/in/catriona-sullivan-844878153/" target="_blank">
+                <i  class="fab fa-linkedin"></i> LinkedIn</a>  
         </div> 
         </div>
         <h1 class="title">About</h1>
